@@ -19,7 +19,8 @@ from dataclasses import dataclass, field
 @dataclass
 class OxToto:
     username: str = "0xToto"
-    age: int = 18
+    age: int = 21
+    dob: str = "19/08/2005"
     location: str = "France 🇫🇷"
 
     languages: list = field(default_factory=lambda: ["Python", "JavaScript", "PHP", "HTML", "CSS"])
@@ -62,15 +63,7 @@ me = OxToto()
 
 ### 📊 Stats
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=0xToto&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xToto&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=0xToto&theme=tokyo-night&hide_border=true&bg_color=0d1117" width="95%" />
-</div>
-
+<div align="center"> <img height="165" src="https://github-stats-extended.vercel.app/api?username=0xToto&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" /> <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=0xToto&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" /> </div> <div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=0xToto&theme=tokyo-night&hide_border=true&bg_color=0d1117" width="95%" /> </div>
 ---
 
 ### 📬 Contact
